@@ -9,12 +9,18 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
 }
 
 .theme {
   font-size: 3.5rem;
   line-height: 1;
-  transform-origin: right top;
+  cursor: pointer;
+}
+.theme__icon {
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
 .calculator__btns {
   display: grid;

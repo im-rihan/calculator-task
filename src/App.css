@@ -13,6 +13,8 @@
 .dark {
   --calc-res-color: #fff;
   --calc-bg: #000;
+  --calc-btn-bg: #666;
+  --calc-btn-color: #fff;
 }
 
 * {
